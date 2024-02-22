@@ -1,0 +1,10 @@
+.container{
+  background: linear-gradient(89deg, orange 0%, rgb(193, 193, 112) 100%);
+  height: 100vh;
+  display: flex;
+}
+
+.equi{
+  display:'flex';
+  flex: 1
+}

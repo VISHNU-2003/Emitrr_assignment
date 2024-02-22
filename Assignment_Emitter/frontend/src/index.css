@@ -1,0 +1,15 @@
+/* Resetting default margin and setting font for better consistency */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased; /* Ensuring smooth font rendering on WebKit-based browsers */
+  -moz-osx-font-smoothing: grayscale; /* Ensuring smooth font rendering on macOS */
+}
+
+/* Setting font for code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

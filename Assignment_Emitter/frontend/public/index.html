@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional React App">
+  <meta name="theme-color" content="#000000">
+  <title>Assignment</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Exploid Kitten Using REACT, NODE, REIDS, REDUX </h1>
+    <nav>
+      <button id="nextUserButton">Next User</button>
+    </nav>
+  </header>
+   <main>
+    <noscript>need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </main>
+  <!-- <footer>
+    <p>&copy; 2024 Professional React App. All rights reserved.</p>
+  </footer> -->
+  <script>
+    document.getElementById("nextUserButton").addEventListener("click", function() {
+      // Reload the page
+      location.reload();
+    });
+  </script>
+</body>
+</html>
